@@ -1,0 +1,266 @@
+# Compile of Subsystem_tb.v was successful.
+# Compile of Subsystem.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Subsystem_tb
+# vsim -gui work.Subsystem_tb 
+# Start time: 06:45:41 on Dec 17,2022
+# Loading work.Subsystem_tb
+# Loading work.Subsystem
+add wave sim:/Subsystem_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ֲÿקוסכאג  Hostname: DESKTOP-VDB9QB2  ProcessID: 3784
+#           Attempting to use alternate WLF file "./wlftmzfhay".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmzfhay
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_X3.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(142)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#140(i_X3_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 143
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_X2.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(184)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#182(i_X2_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 185
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_X1.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(226)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#224(i_X1_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 227
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_X0.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(268)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#266(i_X0_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 269
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_w3.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(310)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#308(i_w3_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 311
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_w2.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(352)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#350(i_w2_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 353
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_W1.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(394)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#392(i_W1_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 395
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "i_W0.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(467)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#465(i_W0_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 468
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "o_Y_expected.dat" for reading.
+# No such file or directory. (errno = ENOENT)    : C:/ap_pr/Subsystem_tb.v(626)
+#    Time: 0 ns  Iteration: 0  Instance: /Subsystem_tb
+# ** Error (suppressible): (vsim-PLI-3084) $rewind : Argument 1 is not a valid file descriptor.
+#    Time: 0 ns  Iteration: 0  Process: /Subsystem_tb/#INITIAL#624(o_Y_expected_fileread) File: C:/ap_pr/Subsystem_tb.v Line: 627
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 30 ns  Iteration: 2  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 32 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ERROR in o_Y at time                   40 : Expected 'xxxx' Actual '0000'
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 41 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ERROR in o_Y at time                   50 : Expected 'xxxx' Actual '0000'
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 51 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 61 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 71 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 81 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 91 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 101 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 111 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 121 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#630 File: C:/ap_pr/Subsystem_tb.v Line: 636
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#146 File: C:/ap_pr/Subsystem_tb.v Line: 152
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#188 File: C:/ap_pr/Subsystem_tb.v Line: 194
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#230 File: C:/ap_pr/Subsystem_tb.v Line: 236
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#272 File: C:/ap_pr/Subsystem_tb.v Line: 278
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#314 File: C:/ap_pr/Subsystem_tb.v Line: 320
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#356 File: C:/ap_pr/Subsystem_tb.v Line: 362
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#398 File: C:/ap_pr/Subsystem_tb.v Line: 404
+# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 131 ns  Iteration: 0  Process: /Subsystem_tb/#ALWAYS#471 File: C:/ap_pr/Subsystem_tb.v Line: 477
+# **************TEST COMPLETED (FAILED)**************
+# ** Note: $stop    : C:/ap_pr/Subsystem_tb.v(554)
+#    Time: 160 ns  Iteration: 0  Instance: /Subsystem_tb
+# Break in NamedBeginStat clk_gen at C:/ap_pr/Subsystem_tb.v line 554
+# End time: 06:47:09 on Dec 17,2022, Elapsed time: 0:01:28
+# Errors: 108, Warnings: 13
